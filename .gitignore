@@ -1,0 +1,15 @@
+# Runtime artifacts - never commit
+export.log
+LAST_ERROR.txt
+__pycache__/
+*.pyc
+
+# Exported meetings and any Granola data copies
+*.md
+!README.md
+*.enc
+*.db
+*.db-wal
+*.db-shm
+*.dek
+Local State
